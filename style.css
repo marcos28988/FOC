@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: background: background: background: background: background:background: background: rgb(240,255,0);
+background: linear-gradient(90deg, rgba(240,255,0,1) 19%, rgba(149,13,89,1) 60%, rgba(49,217,201,1) 83%);
+background-color: ;
+opacity: 0.8;
+background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: yellow;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  /*height: 300px;  only for demonstration, should be removed */
+  background: black;
+ padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:background: background: background: background: rgb(207,12,12);
+background: linear-gradient(180deg, rgba(207,12,12,1) 1%, rgba(190,225,244,1) 42%, rgba(109,158,198,1) 84%);
+  /* height: 300px;  only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: background: background:background: background:background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 26%, rgba(255,244,0,1) 43%, rgba(0,0,0,1) 74%);;
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
